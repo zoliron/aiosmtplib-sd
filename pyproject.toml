@@ -14,7 +14,7 @@ packages = [
     { include = "docs", format = "sdist" },
 ]
 readme = "README.rst"
-repository = "https://github.com/zoliron/aiosmtplib_sd"
+repository = "https://github.com/zoliron/sd_aiosmtplib"
 documentation = "https://aiosmtplib.readthedocs.io/en/stable/"
 keywords = ["smtp", "email", "asyncio"]
 classifiers = [
