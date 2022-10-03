@@ -25,13 +25,14 @@ from .errors import (
     SMTPSenderRefused,
     SMTPServerDisconnected,
     SMTPTimeoutError,
+    PreSendCancelledError,
+    PostSendCancelledError
 )
 from .response import SMTPResponse
 from .smtp import SMTP
 from .status import SMTPStatus
 
-
-__title__ = "aiosmtplib"
+__title__ = "sd_aiosmtplib"
 __version__ = "1.1.6"
 __author__ = "Cole Maclean"
 __license__ = "MIT"
@@ -55,4 +56,6 @@ __all__ = (
     "SMTPTimeoutError",
     "SMTPConnectTimeoutError",
     "SMTPReadTimeoutError",
+    "PreSendCancelledError",
+    "PostSendCancelledError"
 )
