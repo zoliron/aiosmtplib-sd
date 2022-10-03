@@ -83,7 +83,7 @@ commands:
           environment:
             XDG_CACHE_HOME: "/tmp/cache"
       - run:
-          command: tox --workdir /tmp/toxworkdir --installpkg dist/aiosmtplib-*.whl
+          command: tox --workdir /tmp/toxworkdir --installpkg dist/sd-aiosmtplib-*.whl
           name: "Running tox"
           environment:
             XDG_CACHE_HOME: "/tmp/cache"
@@ -137,8 +137,8 @@ jobs:
       - persist_to_workspace:
           root: dist
           paths:
-            - aiosmtplib-*.tar.gz
-            - aiosmtplib-*.whl
+            - sd-aiosmtplib-*.tar.gz
+            - sd-aiosmtplib-*.whl
       - store_artifacts:
           path: dist/
 
