@@ -57,7 +57,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "aiosmtplib"
+project = "sd_aiosmtplib"
 author = "Cole Maclean"
 year = datetime.date.today().year
 copyright = "{year}, {author}".format(year=year, author=author)

@@ -9,7 +9,7 @@ description = "asyncio SMTP client"
 authors = ["Cole Maclean <hi@colemaclean.dev>"]
 license = "MIT"
 packages = [
-    { include = "aiosmtplib" },
+    { include = "sd_aiosmtplib" },
     { include = "tests", format = "sdist" },
     { include = "docs", format = "sdist" },
 ]
