@@ -3,7 +3,7 @@ requires = ["poetry>=1.0.0"]
 build-backend = "poetry.masonry.api"
 
 [tool.poetry]
-name = "sdaiosmtplib"
+name = "sd_aiosmtplib"
 version = "1.1.6"
 description = "asyncio SMTP client"
 authors = ["Cole Maclean <hi@colemaclean.dev>"]
@@ -14,7 +14,7 @@ packages = [
     { include = "docs", format = "sdist" },
 ]
 readme = "README.rst"
-repository = "https://github.com/zoliron/sdaiosmtplib"
+repository = "https://github.com/zoliron/sd_aiosmtplib"
 documentation = "https://aiosmtplib.readthedocs.io/en/stable/"
 keywords = ["smtp", "email", "asyncio"]
 classifiers = [
